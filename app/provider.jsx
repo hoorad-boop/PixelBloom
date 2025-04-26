@@ -13,20 +13,32 @@ function Provider({children}) {
     const [ userDetail, setUserDetail ] = useState();
     
     useEffect(() => {
-        user && CreateUser();
+        if (user && user.displayName) {
+            CreateUser();
+        }
     }, [user])
     
     const CreateUser = async () => {
-        const data = {
-            name: user?.displayName,
-            email: user?.primaryEmail,
-            picture: user?.profileImageUrl
+        if (!user?.displayName) {
+            console.log("User display name is missing");
+            return;
         }
-        const result = await createNewUserMutation({
-            ...data
-        })
-        console.log(result);
-        setUserDetail(result);
+        
+        const data = {
+            name: user.displayName,
+            email: user.primaryEmail || "",
+            picture: user.profileImageUrl || ""
+        }
+        
+        try {
+            const result = await createNewUserMutation({
+                ...data
+            });
+            console.log(result);
+            setUserDetail(result);
+        } catch (error) {
+            console.error("Error creating user:", error);
+        }
     }
 
   return (
