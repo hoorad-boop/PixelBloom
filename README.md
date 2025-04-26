@@ -56,12 +56,12 @@ yarn dev
 5. Open http://localhost:3000 and start creating! 
 
 💝 Made With Love Using
-Next.js 13 App Router
-Fabric.js for canvas manipulation
-Convex for backend and real-time updates
-TailwindCSS for styling
-ImageKit.io for image processing
-Unsplash API for stock photos
+ - Next.js 13 App Router
+ - Fabric.js for canvas manipulation
+ - Convex for backend and real-time updates
+ - TailwindCSS for styling
+ - ImageKit.io for image processing
+ - Unsplash API for stock photos
 
 🤝 Contributing
 We'd love to have you join us in making PixleBloom even better! Whether it's:
