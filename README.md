@@ -1,10 +1,10 @@
-# 🌸 PixleBloom - Have Fun Creating!
+# 🌸 PixelBloom - Have Fun Creating!
 
-Welcome to PixleBloom, a playful and creative design tool that brings your ideas to life! 🎨
+Welcome to PixelBloom, a playful and creative design tool that brings your ideas to life! 🎨
 
-## ✨ What is PixleBloom?
+## ✨ What is PixelBloom?
 
-PixleBloom is a friendly web-based design tool that lets you:
+PixelBloom is a friendly web-based design tool that lets you:
 - Create beautiful designs with an intuitive canvas editor
 - Choose from fun templates for social media, presentations, and more
 - Add shapes, stickers, text, and images with just a few clicks
@@ -27,7 +27,7 @@ Think of it as your creative playground where you can design without limits! �
 
 1. Clone this happy little repository:
 ```bash
-git clone https://github.com/hoorad-boop/PixleBloom.git
+git clone https://github.com/hoorad-boop/PixelBloom.git
 ```
 2. Install the dependencies:
 ```bash
@@ -64,7 +64,7 @@ yarn dev
  - Unsplash API for stock photos
 
 🤝 Contributing
-We'd love to have you join us in making PixleBloom even better! Whether it's:
+We'd love to have you join us in making PixelBloom even better! Whether it's:
 🐛 Fixing bugs
 ✨ Adding new features
 📝 Improving documentation

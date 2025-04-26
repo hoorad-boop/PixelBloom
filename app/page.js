@@ -98,7 +98,7 @@ export default function Home() {
               Made with 💖 by creative minds for creative minds
             </p>
             <a
-              href="https://github.com/hoorad-boop/PixleBloom"
+              href="https://github.com/hoorad-boop/PixelBloom"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-4 py-2 

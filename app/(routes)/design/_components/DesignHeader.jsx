@@ -59,7 +59,7 @@ function DesignHeader({ DesignInfo }) {
                 const JsonDesign = canvasEditor.toJSON();
                 const result = await saveDesign({
                     id: designId,
-                    name: designName,
+                    name: designName || "Nameless Design",
                     jsonDesign: JsonDesign,
                     imagePreview: imageRef.url, // Imagekit Image URL
                 });
@@ -98,7 +98,7 @@ function DesignHeader({ DesignInfo }) {
             className='text-teal-900 border-none outline-none bg-transparent
             text-sm sm:text-base w-[120px] sm:w-auto px-2 rounded-md
             focus:bg-white/80 transition-colors'
-            value={designName} 
+            value={designName ? designName : "Nameless Design"} 
             onChange={(e) => setDesignName(e.target.value)}
         />
         <div className='flex gap-2 sm:gap-5 items-center'>
