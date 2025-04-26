@@ -30,9 +30,13 @@ Think of it as your creative playground where you can design without limits! ðŸš
 git clone https://github.com/hoorad-boop/PixleBloom.git
 ```
 2. Install the dependencies:
+```bash
 npm install
-# or
+```
+## or
+```bash
 yarn install
+```
 
 3. Create a .env.local file and add your environment variables:
 NEXT_PUBLIC_IMAGEKIT_PUBLIC_KEY=your_imagekit_public_key
@@ -41,9 +45,13 @@ NEXT_PUBLIC_IMAGEKIT_URL_ENDPOINT=your_imagekit_url
 NEXT_PUBLIC_UNSPLASH_ACCESS_KEY=your_unsplash_key
 
 4. Start the development server:
+```bash
 npm run dev
-# or
+```
+## or
+```bash
 yarn dev
+```
 
 5. Open http://localhost:3000 and start creating! 
 
