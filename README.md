@@ -33,7 +33,7 @@ git clone https://github.com/hoorad-boop/PixelBloom.git
 ```bash
 npm install
 ```
-## or
+or
 ```bash
 yarn install
 ```
@@ -48,12 +48,17 @@ NEXT_PUBLIC_UNSPLASH_ACCESS_KEY=your_unsplash_key
 ```bash
 npm run dev
 ```
-## or
+or
 ```bash
 yarn dev
 ```
+--------
+Note:
+   You should add a username after you sign up!
+--------
 
-5. Open http://localhost:3000 and start creating! 
+5. Open http://localhost:3000 and start creating!
+
 
 💝 Made With Love Using
  - Next.js 13 App Router
